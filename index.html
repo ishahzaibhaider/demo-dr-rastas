@@ -4,112 +4,84 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Dr. Rastas | Dreadlock Specialists, Manchester UK | Book Online</title>
-<style>
-  :root{--green:#1b4332;--lt:#f3f7f4;--gold:#d4a373;--dark:#14281d;--txt:#22312a;--mut:#5c6f64}
-  *{margin:0;padding:0;box-sizing:border-box}
-  body{font-family:'Segoe UI',Arial,sans-serif;color:var(--txt);background:#fff;line-height:1.65}
-  header{position:sticky;top:0;background:#fff;border-bottom:1px solid #e2ece6;z-index:10}
-  nav{max-width:1080px;margin:auto;display:flex;justify-content:space-between;align-items:center;padding:14px 24px}
-  .logo{font-weight:800;font-size:1.2rem;color:var(--green)}
-  nav a{color:var(--txt);text-decoration:none;margin-left:20px;font-size:.95rem}
-  nav a:hover{color:var(--green)}
-  .hero{background:linear-gradient(150deg,var(--green),var(--dark));color:#fff;padding:90px 24px 70px}
-  .hero-inner{max-width:1080px;margin:auto;text-align:center}
-  .hero h1{font-size:clamp(2rem,5.5vw,3.4rem);line-height:1.2}
-  .hero h1 span{color:var(--gold)}
-  .hero p{color:#cfe3d6;max-width:560px;margin:18px auto 30px;font-size:1.1rem}
-  .btn{display:inline-block;background:var(--gold);color:#22312a;padding:14px 36px;border-radius:6px;text-decoration:none;font-weight:bold;border:none;font-size:1rem;cursor:pointer}
-  .btn:hover{background:#e6b988}
-  .stats{display:flex;flex-wrap:wrap;justify-content:center;gap:36px;margin-top:40px}
-  .stat b{display:block;font-size:1.6rem;color:var(--gold)}
-  .stat{font-size:.9rem;color:#cfe3d6}
-  section{max-width:1080px;margin:auto;padding:64px 24px}
-  h2{color:var(--green);font-size:1.9rem;margin-bottom:8px}
-  .sub{color:var(--mut);margin-bottom:36px}
-  .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:18px}
-  .card{background:var(--lt);border-radius:14px;padding:26px}
-  .card h3{color:var(--green);margin-bottom:8px}
-  .card p{color:var(--mut);font-size:.94rem}
-  .price{font-weight:800;color:var(--txt);margin-top:12px}
-  .course{background:linear-gradient(120deg,#fdf6ee,#fbeedd);border-radius:16px;padding:38px;display:flex;flex-wrap:wrap;gap:24px;align-items:center;justify-content:space-between}
-  .course h3{color:#8a5a2b;font-size:1.4rem;margin-bottom:6px}
-  .course p{max-width:520px;color:#8b6f4e}
-  form{background:var(--lt);border-radius:16px;padding:32px;max-width:620px;margin:auto}
-  label{display:block;margin:14px 0 6px;font-size:.88rem;font-weight:700;color:var(--green)}
-  input,select,textarea{width:100%;border:1px solid #cfdfd5;border-radius:8px;padding:11px;font-size:1rem;background:#fff}
-  input:focus,select:focus,textarea:focus{outline:2px solid var(--green)}
-  .row{display:grid;grid-template-columns:1fr 1fr;gap:14px}
-  @media(max-width:560px){.row{grid-template-columns:1fr}}
-  .note{font-size:.84rem;color:var(--mut);margin-top:12px}
-  .ok{display:none;background:#e7f5ec;border:1px solid #7cc99a;color:#1e6b40;padding:14px;border-radius:8px;margin-top:16px;text-align:center}
-  footer{background:var(--dark);color:#9db8a8;text-align:center;padding:30px;font-size:.85rem}
-</style>
+<meta name="description" content="Retwist, interlocking, crochet, detox and styles in Bolton, Manchester. Book online with live availability and deposits.">
+<meta property="og:title" content="Dr. Rastas | Dreadlock Specialists, Manchester UK | Book Online">
+<meta property="og:description" content="Retwist, interlocking, crochet, detox and styles in Bolton, Manchester. Book online with live availability and deposits.">
+<meta property="og:type" content="website">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='90'%3E🌿%3C/text%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Sora:wght@600;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
 </head>
 <body>
 <header>
   <nav>
-    <div class="logo">DR. RASTAS</div>
-    <div><a href="#services">Services</a><a href="#course">Loc Course</a><a href="#book">Book</a></div>
+    <a class="logo" href="#top">DR. RASTAS</a>
+    <button class="burger" aria-label="Menu"><span></span><span></span><span></span></button>
+    <div class="navlinks">
+      <a href="#services">Services</a>
+      <a href="#work">Real Work</a>
+      <a href="#how">How It Works</a>
+      <a class="cta" href="#book">Book Now</a>
+    </div>
   </nav>
 </header>
 
-<div class="hero">
-  <div class="hero-inner">
-    <h1>Manchester's <span>Dreadlock Specialists</span></h1>
-    <p>Retwist, interlocking, crochet, detox and styles. Healthy locs done properly in Bolton by a dedicated barber and loctician team.</p>
-    <a class="btn" href="#book">Book An Appointment</a>
-    <div class="stats">
-      <div class="stat"><b>4,000+</b>clients reached on Instagram</div>
-      <div class="stat"><b>6</b>core loc services</div>
-      <div class="stat"><b>1</b>loc training course</div>
-    </div>
-  </div>
+<div class="hero" id="top">
+  <span class="eyebrow">Bolton, Manchester · Healthy Locs Done Properly</span>
+  <h1>Manchester's <em>Dreadlock Specialists</em></h1>
+  <p>Retwist, interlocking, crochet, detox and styles. Healthy locs done properly in Bolton by a dedicated barber and loctician team.</p>
+  <a class="btn" href="#book">Book Now</a>
+  <a class="btn ghost" href="#work">See Real Work</a>
+  <div class="badges"><span class="badge">📍 Bolton, Manchester</span><span class="badge">🔒 Deposit secures your chair</span><span class="badge">📚 Loc course available</span><span class="badge">✂️ Barber in house</span></div>
 </div>
 
 <section id="services">
-  <h2>Services</h2>
-  <p class="sub">Pick your service and see live availability when you book. No more waiting for a DM reply.</p>
-  <div class="grid">
-    <div class="card"><h3>Retwist</h3><p>Clean, even retwist that protects your roots and lasts.</p><div class="price">From £45</div></div>
-    <div class="card"><h3>Interlocking</h3><p>Low maintenance tightening, ideal for active lifestyles and fine hair.</p><div class="price">From £55</div></div>
-    <div class="card"><h3>Crochet</h3><p>Instant locs and repair work with a natural, mature finish.</p><div class="price">From £70</div></div>
-    <div class="card"><h3>Loc Detox</h3><p>Deep cleanse that strips buildup and resets your scalp.</p><div class="price">From £40</div></div>
-    <div class="card"><h3>Styles</h3><p>Barrel twists, braids, updos for events or everyday wear.</p><div class="price">From £35</div></div>
-    <div class="card"><h3>Haircut</h3><p>Sharp cuts and shape ups from our in-house barber.</p><div class="price">From £20</div></div>
+  <div class="container">
+    <h2 class="reveal">Services</h2>
+    <p class="sub reveal">Pick your service and request your slot. No more waiting for a DM reply.</p>
+    <div class="grid"><div class="card reveal"><div class="ico">🌀</div><h3>Retwist</h3><p>Clean, even retwist that protects your roots and lasts.</p><div class="price">From £45</div></div><div class="card reveal"><div class="ico">🪢</div><h3>Interlocking</h3><p>Low maintenance tightening, ideal for active lifestyles and fine hair.</p><div class="price">From £55</div></div><div class="card reveal"><div class="ico">🪡</div><h3>Crochet</h3><p>Instant locs and repair work with a natural, mature finish.</p><div class="price">From £70</div></div><div class="card reveal"><div class="ico">💧</div><h3>Loc Detox</h3><p>Deep cleanse that strips buildup and resets your scalp.</p><div class="price">From £40</div></div><div class="card reveal"><div class="ico">💇</div><h3>Styles</h3><p>Barrel twists, braids and updos for events or everyday wear.</p><div class="price">From £35</div></div><div class="card reveal"><div class="ico">✂️</div><h3>Haircut</h3><p>Sharp cuts and shape ups from our in house barber.</p><div class="price">From £20</div></div></div>
   </div>
 </section>
 
-<section id="course">
-  <div class="course">
-    <div>
-      <h3>📚 The Loc Course</h3>
-      <p>Learn locs from the Dr. Rastas team. Your course can be sold right here on the site with instant checkout, no DM required.</p>
-    </div>
-    <a class="btn" href="#book">Ask About The Course</a>
+<section id="work" style="background:var(--panel)">
+  <div class="container center">
+    <h2 class="reveal">Real Work, Straight From Instagram</h2>
+    <p class="sub reveal">Retwists, crochet work and transformations posted by the team.</p>
+    <div class="iggrid"><div class="reveal"><blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/dr.rastas/p/DQAGq3aDcAX/" data-instgrm-version="14" style="background:transparent;border:1px solid var(--line);border-radius:12px;box-shadow:none;margin:0;padding:0;"></blockquote></div><div class="reveal"><blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/dr.rastas/reel/DZVpoRXNhII/" data-instgrm-version="14" style="background:transparent;border:1px solid var(--line);border-radius:12px;box-shadow:none;margin:0;padding:0;"></blockquote></div><div class="reveal"><blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/dr.rastas/reel/DXxTo35NlKk/" data-instgrm-version="14" style="background:transparent;border:1px solid var(--line);border-radius:12px;box-shadow:none;margin:0;padding:0;"></blockquote></div><div class="reveal"><blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/dr.rastas/reel/DVbU6tljCM3/" data-instgrm-version="14" style="background:transparent;border:1px solid var(--line);border-radius:12px;box-shadow:none;margin:0;padding:0;"></blockquote></div><div class="reveal"><blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/dr.rastas/reel/DVYxAITjMhl/" data-instgrm-version="14" style="background:transparent;border:1px solid var(--line);border-radius:12px;box-shadow:none;margin:0;padding:0;"></blockquote></div><div class="reveal"><blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/dr.rastas/reel/DT1FCHzDW74/" data-instgrm-version="14" style="background:transparent;border:1px solid var(--line);border-radius:12px;box-shadow:none;margin:0;padding:0;"></blockquote></div></div>
+    <p class="ig-note">Live posts from <a href="https://www.instagram.com/dr.rastas/" target="_blank" rel="noopener">@dr.rastas</a>, always up to date.</p>
   </div>
 </section>
 
-<section id="book">
-  <h2 style="text-align:center">Book Your Slot</h2>
-  <p class="sub" style="text-align:center">Deposit secures your chair. Reminders sent automatically.</p>
-  <form onsubmit="event.preventDefault();this.querySelector('.ok').style.display='block';this.reset()">
-    <div class="row">
-      <div><label>Name</label><input type="text" required></div>
-      <div><label>Phone or email</label><input type="text" required></div>
-    </div>
-    <div class="row">
-      <div><label>Service</label><select><option>Retwist, from £45</option><option>Interlocking, from £55</option><option>Crochet, from £70</option><option>Loc detox, from £40</option><option>Styles, from £35</option><option>Haircut, from £20</option><option>Loc course enquiry</option></select></div>
-      <div><label>Preferred date</label><input type="date"></div>
-    </div>
-    <label>Notes</label><textarea rows="3" placeholder="Length, last retwist date, photos can be sent after booking"></textarea>
-    <div style="text-align:center;margin-top:24px"><button class="btn" type="submit">Request Booking</button></div>
-    <p class="note">A £10 deposit confirms your appointment and comes off your final price. Full T&C shown at checkout.</p>
-    <div class="ok">Booking request received. You will get a confirmation and deposit link shortly.</div>
-  </form>
+<section id="how">
+  <div class="container">
+    <h2 class="reveal">How It Works</h2>
+    <p class="sub reveal">Three steps and your chair is locked.</p>
+    <div class="steps"><div class="step reveal"><b>Pick your service</b><p>Retwist, interlocking, crochet, detox, styles or a cut.</p></div><div class="step reveal"><b>Pay the £10 deposit</b><p>Your appointment is confirmed and the deposit comes off your final price.</p></div><div class="step reveal"><b>Sit back</b><p>Automatic reminder before your visit. T&C shown at checkout.</p></div></div>
+  </div>
+</section>
+
+<section id="book" style="background:var(--panel)">
+  <div class="container center">
+    <h2 class="reveal">Book Your Slot</h2>
+    <p class="sub reveal">Deposit secures your chair. Reminders sent automatically.</p>
+    <form id="bookform" novalidate>
+      <div class="row2"><div><label for="name">Name</label><input type="text" id="name" name="name" placeholder="Your name" required></div><div><label for="contact">Phone or email</label><input type="text" id="contact" name="contact" placeholder="you@email.com" required></div></div><div class="row2"><div><label for="service">Service</label><select id="service" name="service"><option>Retwist, from £45</option><option>Interlocking, from £55</option><option>Crochet, from £70</option><option>Loc detox, from £40</option><option>Styles, from £35</option><option>Haircut, from £20</option><option>Loc course enquiry</option></select></div><div><label for="date">Preferred date</label><input type="date" id="date" name="date" placeholder=""></div></div><div><label for="notes">Notes</label><textarea id="notes" name="notes" rows="3" placeholder="Length, last retwist date, photos can be sent after booking"></textarea></div>
+      <div style="text-align:center;margin-top:26px"><button class="btn" type="submit">Request Booking</button></div>
+      <p class="formerr">Please fill in the highlighted fields.</p>
+      <p class="note">A £10 deposit confirms your appointment and comes off your final price. Full T&C shown at checkout.</p>
+      <div class="ok">Booking request received. You will get a confirmation and deposit link shortly.</div>
+    </form>
+  </div>
 </section>
 
 <footer>
-  Dr. Rastas · Dreadlock Specialists · Bolton, Manchester UK · Demo preview, a design concept and not the live business site
+  <p class="fsoc"><a href="https://www.instagram.com/dr.rastas/" target="_blank" rel="noopener">Instagram @dr.rastas</a></p>
+  <p>Dr. Rastas · Dreadlock Specialists · Bolton, Manchester UK</p>
+  <p>&copy; <span id="year"></span> Dr. Rastas. Demo preview, a design concept and not the live business site.</p>
 </footer>
+
+<script async src="https://www.instagram.com/embed.js"></script>
+<script src="script.js"></script>
 </body>
 </html>
